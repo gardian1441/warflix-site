@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+<script>document.documentElement.className="js"</script>
+<link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+<script src="{{ "js/warflix.js" | relURL }}" defer></script>
+</head>
+<body>
+
+<header class="site-header">
+  <a href="{{ "/" | relURL }}" class="logo">⚔ WarFlix Historique</a>
+  <nav class="nav" aria-label="Périodes">
+    {{ range site.Home.Sections.ByWeight }}
+      {{ $actif := or (eq $.RelPermalink .RelPermalink) ($.IsDescendant .) }}
+      <a href="{{ .RelPermalink }}" class="nav-btn"{{ if $actif }} aria-current="page"{{ end }}>{{ .Title }}</a>
+    {{ end }}
+  </nav>
+</header>
+
+<main>
+  {{ block "main" . }}{{ end }}
+</main>
+
+<footer class="site-footer">
+  WarFlix Historique — plateforme d'histoire immersive · Créé par Robin
+</footer>
+
+</body>
+</html>

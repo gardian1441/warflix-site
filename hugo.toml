@@ -1,0 +1,14 @@
+# Remplace par l'adresse de ton futur site (GitHub Pages : https://PSEUDO.github.io/NOM-DU-DEPOT/)
+# Sur Netlify, ce champ est remplacé automatiquement (voir netlify.toml).
+baseURL = "http://localhost:1313/"
+languageCode = "fr-FR"
+defaultContentLanguage = "fr"
+title = "WarFlix Historique"
+
+[params]
+  description = "Revivez les plus grandes batailles de l'Histoire, racontées avec rigueur."
+
+# INDISPENSABLE : sans cela, Hugo supprime le HTML brut écrit dans tes fichiers .md
+# (c'est la cause n°1 des cartes interactives qui "disparaissent").
+[markup.goldmark.renderer]
+  unsafe = true

@@ -1,0 +1,30 @@
+{{/* Contexte attendu : la page. Accepte
+     - nouveau format : carte: {image, alt, legende, points:[{nom, texte, gauche, haut}]}
+     - ancien format  : map: "..." + zones:[{top, left, text}] */}}
+{{ $c := dict }}
+{{ with .Params.carte }}{{ $c = . }}{{ end }}
+{{ $img := $c.image | default .Params.map }}
+{{ $pts := $c.points | default .Params.zones }}
+{{ if $img }}
+<figure class="carte">
+  <div class="carte-wrap">
+    <img src="{{ $img | relURL }}" alt="{{ $c.alt | default "Carte du champ de bataille" }}" loading="lazy">
+    {{ range $i, $p := $pts }}
+      {{ $l := printf "%v" ($p.gauche | default $p.left) }}
+      {{ $t := printf "%v" ($p.haut | default $p.top) }}
+      {{ if not (strings.HasSuffix $l "%") }}{{ $l = printf "%s%%" $l }}{{ end }}
+      {{ if not (strings.HasSuffix $t "%") }}{{ $t = printf "%s%%" $t }}{{ end }}
+      {{ $txt := $p.texte | default $p.text }}
+      {{ $nom := $p.nom | default "" }}
+      <button type="button" class="carte-point"
+        style="left:{{ $l }};top:{{ $t }}"
+        data-titre="{{ $nom }}" data-texte="{{ $txt }}"
+        aria-label="{{ $nom | default $txt }}">{{ add $i 1 }}</button>
+    {{ end }}
+  </div>
+  <div class="carte-info" aria-live="polite">
+    <p class="carte-aide">Clique sur un point numéroté pour en savoir plus.</p>
+  </div>
+  {{ with $c.legende }}<figcaption>{{ . }}</figcaption>{{ end }}
+</figure>
+{{ end }}

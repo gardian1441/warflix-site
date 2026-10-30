@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Carolingiens on WarFlix Historique</title>
+    <link>http://localhost:1313/moyen-age/carolingiens/</link>
+    <description>Recent content in Carolingiens on WarFlix Historique</description>
+    <generator>Hugo</generator>
+    <language>fr-FR</language>
+    <atom:link href="http://localhost:1313/moyen-age/carolingiens/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bataille de Poitiers</title>
+      <link>http://localhost:1313/moyen-age/carolingiens/poitiers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/moyen-age/carolingiens/poitiers/</guid>
+      <description>&lt;p&gt;La bataille de Poitiers oppose les Francs dirigés par Charles Martel aux forces omeyyades&#xA;venues d&amp;rsquo;Al-Andalus. Elle est souvent présentée comme un tournant de l&amp;rsquo;histoire européenne,&#xA;même si les historiens débattent de son ampleur réelle et de sa date exacte (732 ou 733).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,7 @@
+<a href="{{ .RelPermalink }}" class="card">
+  {{ with .Params.image }}<img src="{{ . | relURL }}" alt="" loading="lazy">{{ end }}
+  <span class="card-text">
+    {{ with .Params.date_label | default .Params.periode }}<small>{{ . }}</small>{{ end }}
+    <strong>{{ .Title }}</strong>
+  </span>
+</a>

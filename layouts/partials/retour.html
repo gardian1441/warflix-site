@@ -1,0 +1,3 @@
+{{ with .Parent }}{{ if not .IsHome }}
+<a class="btn-retour" href="{{ .RelPermalink }}"><span aria-hidden="true">←</span> {{ .Title }}</a>
+{{ end }}{{ end }}

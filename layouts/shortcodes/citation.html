@@ -1,0 +1,5 @@
+{{/* Citation : {{< citation auteur="Arrien" >}} texte {{< /citation >}} */}}
+<blockquote class="citation">
+  {{ .Inner | markdownify }}
+  {{ with .Get "auteur" }}<cite>{{ . }}</cite>{{ end }}
+</blockquote>

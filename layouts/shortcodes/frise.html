@@ -1,0 +1,12 @@
+{{/* Frise chronologique : données dans le front matter (paramètre "frise") */}}
+{{ with .Page.Params.frise }}
+<ol class="frise">
+  {{ range . }}
+  <li>
+    <time>{{ .quand }}</time>
+    <h3>{{ .titre }}</h3>
+    {{ with .texte }}<p>{{ . }}</p>{{ end }}
+  </li>
+  {{ end }}
+</ol>
+{{ end }}

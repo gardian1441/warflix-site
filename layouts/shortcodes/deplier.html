@@ -1,0 +1,5 @@
+{{/* Bloc dépliable : {{< deplier titre="Le saviez-vous ?" >}} texte markdown {{< /deplier >}} */}}
+<details class="deplier">
+  <summary>{{ .Get "titre" }}</summary>
+  <div>{{ .Inner | markdownify }}</div>
+</details>
