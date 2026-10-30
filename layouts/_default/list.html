@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 <div class="battle-hero battle-hero--section">
-  {{ with .Params.image }}<img class="hero-bg" src="{{ . | relURL }}" alt="">{{ end }}
+  {{ with .Params.image }}{{ if partial "image-existe.html" . }}<img class="hero-bg" src="{{ . | relURL }}" alt="">{{ end }}{{ end }}
   <div class="battle-hero-text">
     {{ partial "retour.html" . }}
     {{ with .Params.periode }}<p class="battle-date">{{ . }}</p>{{ end }}
@@ -13,18 +13,21 @@
 <section class="section">
   {{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
 
-  {{/* Sous-périodes (ex. les dynasties) */}}
+  {{/* Sous-sections (ex. dynasties, clans) */}}
+  {{ $aDesSections := gt (len .Sections) 0 }}
   {{ with .Sections.ByWeight }}
     <div class="grid">
       {{ range . }}{{ partial "card.html" . }}{{ end }}
     </div>
   {{ end }}
 
-  {{/* Batailles de cette période */}}
-  {{ with .RegularPages.ByParam "year" }}
-    <h2 class="liste-titre">Batailles majeures</h2>
+  {{/* Pages de cette section : triées par année si elles en ont, sinon par poids */}}
+  {{ with .RegularPages }}
+    {{ $pages := .ByWeight }}
+    {{ if gt (len (where . "Params.year" "!=" nil)) 0 }}{{ $pages = .ByParam "year" }}{{ end }}
+    {{ if $aDesSections }}<h2 class="liste-titre">Batailles majeures</h2>{{ end }}
     <div class="grid">
-      {{ range . }}{{ partial "card.html" . }}{{ end }}
+      {{ range $pages }}{{ partial "card.html" . }}{{ end }}
     </div>
   {{ end }}
 </section>

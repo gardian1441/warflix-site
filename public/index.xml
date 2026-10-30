@@ -8,11 +8,53 @@
     <language>fr-FR</language>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Clan Mackenzie</title>
+      <link>http://localhost:1313/epoque-moderne/jacobites/clans/mackenzie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/epoque-moderne/jacobites/clans/mackenzie/</guid>
+      <description>&lt;h2 id=&#34;qui-sont-les-mackenzie-&#34;&gt;Qui sont les Mackenzie ?&lt;/h2&gt;&#xA;&lt;p&gt;Les Mackenzie sont l&amp;rsquo;un des clans les plus puissants du nord-ouest des Highlands.&#xA;Leurs chefs portent le titre de comtes de Seaforth. Le château d&amp;rsquo;Eilean Donan,&#xA;sur le Loch Duich, est lié à leur histoire.&lt;/p&gt;&#xA;&lt;h2 id=&#34;les-mackenzie-et-les-soulèvements-jacobites&#34;&gt;Les Mackenzie et les soulèvements jacobites&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;1715&lt;/strong&gt; : le comte de Seaforth se range du côté des jacobites.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1719&lt;/strong&gt; : des hommes de Kintail combattent à Glen Shiel.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1745&lt;/strong&gt; : le clan est partagé entre partisans du prince Charles et soutiens du gouvernement.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Pour ces batailles, voir les pages Sheriffmuir, Glen Shiel et Culloden.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Clan MacDonald</title>
+      <link>http://localhost:1313/epoque-moderne/jacobites/clans/macdonald/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/epoque-moderne/jacobites/clans/macdonald/</guid>
+      <description>&lt;h2 id=&#34;un-clan-en-plusieurs-branches&#34;&gt;Un clan en plusieurs branches&lt;/h2&gt;&#xA;&lt;p&gt;Le Clan Donald se divise en branches : Clanranald, Glengarry, Keppoch, Glencoe, Sleat…&#xA;Toutes n&amp;rsquo;ont pas fait le même choix. En 1745, par exemple, les MacDonald de Sleat, sur l&amp;rsquo;île de Skye,&#xA;ne prennent pas les armes pour le prince.&lt;/p&gt;&#xA;&lt;h2 id=&#34;glencoe-1692&#34;&gt;Glencoe, 1692&lt;/h2&gt;&#xA;&lt;p&gt;En février 1692, des soldats du gouvernement, hébergés par les MacDonald de Glencoe, les attaquent&#xA;au petit matin. Plusieurs dizaines de personnes sont tuées. Cet épisode laisse un souvenir durable&#xA;dans les Highlands.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Clan Cameron</title>
+      <link>http://localhost:1313/epoque-moderne/jacobites/clans/cameron/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/epoque-moderne/jacobites/clans/cameron/</guid>
+      <description>&lt;h2 id=&#34;lochiel&#34;&gt;Lochiel&lt;/h2&gt;&#xA;&lt;p&gt;Donald Cameron de Lochiel, surnommé « le doux Lochiel », est l&amp;rsquo;un des chefs dont le soutien compte le plus&#xA;en 1745. On dit qu&amp;rsquo;il hésite avant de s&amp;rsquo;engager, mais son ralliement entraîne d&amp;rsquo;autres clans.&lt;/p&gt;&#xA;&lt;h2 id=&#34;après-culloden&#34;&gt;Après Culloden&lt;/h2&gt;&#xA;&lt;p&gt;Lochiel est blessé à Culloden, puis fuit en France, où il meurt quelques années plus tard.&#xA;Le territoire des Cameron subit ensuite la répression qui frappe les clans jacobites.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Clan Campbell</title>
+      <link>http://localhost:1313/epoque-moderne/jacobites/clans/campbell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/epoque-moderne/jacobites/clans/campbell/</guid>
+      <description>&lt;h2 id=&#34;un-clan-du-côté-du-pouvoir&#34;&gt;Un clan du côté du pouvoir&lt;/h2&gt;&#xA;&lt;p&gt;Les chefs Campbell, comtes puis ducs d&amp;rsquo;Argyll, soutiennent le gouvernement face aux jacobites.&#xA;Le duc d&amp;rsquo;Argyll commande l&amp;rsquo;armée gouvernementale à Sheriffmuir en 1715, et des milices&#xA;d&amp;rsquo;Argyll se trouvent du côté gouvernemental à Culloden en 1746.&lt;/p&gt;&#xA;&lt;h2 id=&#34;une-rivalité-entre-clans&#34;&gt;Une rivalité entre clans&lt;/h2&gt;&#xA;&lt;p&gt;Les Campbell sont souvent en conflit avec des clans des Highlands de l&amp;rsquo;Ouest. À Glencoe en 1692,&#xA;la compagnie du capitaine Robert Campbell de Glenlyon participe au massacre des MacDonald,&#xA;ce qui nourrit une longue rancune.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Clan Fraser de Lovat</title>
+      <link>http://localhost:1313/epoque-moderne/jacobites/clans/fraser/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/epoque-moderne/jacobites/clans/fraser/</guid>
+      <description>&lt;h2 id=&#34;le-vieux-renard&#34;&gt;Le vieux renard&lt;/h2&gt;&#xA;&lt;p&gt;Simon Fraser, lord Lovat, est connu pour ses manœuvres politiques. En 1745, il affiche une prudence&#xA;calculée, tout en envoyant son fils et les hommes du clan combattre pour le prince Charles.&lt;/p&gt;&#xA;&lt;h2 id=&#34;une-fin-célèbre&#34;&gt;Une fin célèbre&lt;/h2&gt;&#xA;&lt;p&gt;Après Culloden, Lovat est arrêté, jugé et exécuté en 1747 à Londres. Il est souvent présenté&#xA;comme la dernière personne décapitée en Grande-Bretagne.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Bataille d&#39;Actium</title>
       <link>http://localhost:1313/antiquite/actium/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/antiquite/actium/</guid>
       <description>&lt;h2 id=&#34;le-contexte&#34;&gt;Le contexte&lt;/h2&gt;&#xA;&lt;p&gt;Après la mort de César, Rome se déchire. Octave et Marc Antoine se disputent le pouvoir.&lt;/p&gt;&#xA;&#xA;&#xA;&lt;ol class=&#34;frise&#34;&gt;&#xA;  &#xA;  &lt;li&gt;&#xA;    &lt;time&gt;31 av. J.-C.&lt;/time&gt;&#xA;    &lt;h3&gt;Blocus&lt;/h3&gt;&#xA;    &lt;p&gt;La flotte d&amp;#39;Agrippa coupe les approvisionnements d&amp;#39;Antoine.&lt;/p&gt;&#xA;  &lt;/li&gt;&#xA;  &#xA;  &lt;li&gt;&#xA;    &lt;time&gt;2 septembre 31&lt;/time&gt;&#xA;    &lt;h3&gt;Bataille d&amp;#39;Actium&lt;/h3&gt;&#xA;    &lt;p&gt;Antoine tente de forcer le blocus ; Cléopâtre et une partie de sa flotte s&amp;#39;échappent.&lt;/p&gt;&#xA;  &lt;/li&gt;&#xA;  &#xA;  &lt;li&gt;&#xA;    &lt;time&gt;30 av. J.-C.&lt;/time&gt;&#xA;    &lt;h3&gt;Alexandrie&lt;/h3&gt;&#xA;    &lt;p&gt;Antoine et Cléopâtre se donnent la mort ; l&amp;#39;Égypte devient romaine.&lt;/p&gt;&#xA;  &lt;/li&gt;&#xA;  &#xA;  &lt;li&gt;&#xA;    &lt;time&gt;27 av. J.-C.&lt;/time&gt;&#xA;    &lt;h3&gt;Naissance de l&amp;#39;Empire&lt;/h3&gt;&#xA;    &lt;p&gt;Octave reçoit le titre d&amp;#39;Auguste.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bataille de Culloden</title>
+      <link>http://localhost:1313/epoque-moderne/jacobites/culloden/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/epoque-moderne/jacobites/culloden/</guid>
+      <description>&lt;h2 id=&#34;le-contexte&#34;&gt;Le contexte&lt;/h2&gt;&#xA;&lt;p&gt;Après la retraite de Derby, l&amp;rsquo;armée jacobite repart vers le nord, fatiguée et sans ressources.&#xA;Le duc de Cumberland, fils du roi George II, la poursuit avec une armée mieux équipée et mieux ravitaillée.&lt;/p&gt;&#xA;&lt;h2 id=&#34;le-déroulement&#34;&gt;Le déroulement&lt;/h2&gt;&#xA;&lt;p&gt;Les jacobites choisissent un terrain ouvert, qui ne favorise pas la charge des Highlanders mais&#xA;convient parfaitement à l&amp;rsquo;artillerie et au tir coordonné de l&amp;rsquo;infanterie gouvernementale. La charge&#xA;est brisée, l&amp;rsquo;armée jacobite s&amp;rsquo;effondre. Les ordres de grandeur varient selon les sources : plus d&amp;rsquo;un millier&#xA;de morts côté jacobite, très peu côté gouvernemental.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bataille de Gaugamèles</title>
@@ -22,11 +64,39 @@
       <description>&lt;h2 id=&#34;le-contexte&#34;&gt;Le contexte&lt;/h2&gt;&#xA;&lt;p&gt;Après Le Granique et Issos, Alexandre contrôle déjà l&amp;rsquo;Asie Mineure, la Syrie et l&amp;rsquo;Égypte.&#xA;Darius III réunit alors une immense armée sur un terrain plat, choisi pour favoriser sa cavalerie&#xA;et ses chars à faux.&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;carte&#34;&gt;&#xA;  &lt;div class=&#34;carte-wrap&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/carte-gaugameles.jpg&#34; alt=&#34;Carte des conquêtes d&amp;#39;Alexandre le Grand&#34; loading=&#34;lazy&#34;&gt;&#xA;    &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &lt;button type=&#34;button&#34; class=&#34;carte-point&#34;&#xA;        style=&#34;left:15.8%;top:29.2%&#34;&#xA;        data-titre=&#34;Le Granique, 334&#34; data-texte=&#34;Première grande victoire en Asie : Alexandre ouvre l&amp;#39;Asie Mineure.&#34;&#xA;        aria-label=&#34;Le Granique, 334&#34;&gt;1&lt;/button&gt;&#xA;    &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &lt;button type=&#34;button&#34; class=&#34;carte-point&#34;&#xA;        style=&#34;left:28.9%;top:42.3%&#34;&#xA;        data-titre=&#34;Issos, 333&#34; data-texte=&#34;Première rencontre avec Darius III en personne, qui s&amp;#39;enfuit.&#34;&#xA;        aria-label=&#34;Issos, 333&#34;&gt;2&lt;/button&gt;&#xA;    &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &lt;button type=&#34;button&#34; class=&#34;carte-point&#34;&#xA;        style=&#34;left:40.7%;top:44.8%&#34;&#xA;        data-titre=&#34;Gaugamèles, 331&#34; data-texte=&#34;La bataille décisive : le cœur de l&amp;#39;empire perse est ouvert.&#34;&#xA;        aria-label=&#34;Gaugamèles, 331&#34;&gt;3&lt;/button&gt;&#xA;    &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &lt;button type=&#34;button&#34; class=&#34;carte-point&#34;&#xA;        style=&#34;left:87.6%;top:39.1%&#34;&#xA;        data-titre=&#34;L&amp;#39;Hydaspe, 326&#34; data-texte=&#34;Victoire sur le roi Pôros, aux portes de l&amp;#39;Inde.&#34;&#xA;        aria-label=&#34;L&amp;#39;Hydaspe, 326&#34;&gt;4&lt;/button&gt;&#xA;    &#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;carte-info&#34; aria-live=&#34;polite&#34;&gt;&#xA;    &lt;p class=&#34;carte-aide&#34;&gt;Clique sur un point numéroté pour en savoir plus.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Bataille de Glen Shiel</title>
+      <link>http://localhost:1313/epoque-moderne/jacobites/glen-shiel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/epoque-moderne/jacobites/glen-shiel/</guid>
+      <description>&lt;h2 id=&#34;le-contexte&#34;&gt;Le contexte&lt;/h2&gt;&#xA;&lt;p&gt;En 1719, l&amp;rsquo;Espagne est en guerre contre la Grande-Bretagne et décide de soutenir les Stuarts.&#xA;Le plan prévoyait un grand débarquement, mais la flotte principale est dispersée par le mauvais temps.&#xA;Il ne reste en Écosse qu&amp;rsquo;une petite force espagnole, rejointe par des clans de l&amp;rsquo;ouest,&#xA;dont les Mackenzie du comte de Seaforth.&lt;/p&gt;&#xA;&lt;h2 id=&#34;le-déroulement&#34;&gt;Le déroulement&lt;/h2&gt;&#xA;&lt;p&gt;Les jacobites s&amp;rsquo;installent sur les pentes dominant la vallée de Glen Shiel. Les troupes du général&#xA;Wightman, soutenues par des mortiers, les délogent peu à peu. À la nuit tombée, les clans se dispersent&#xA;dans les montagnes. Le comte de Seaforth, blessé, doit se retirer.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bataille de Killiecrankie</title>
+      <link>http://localhost:1313/epoque-moderne/jacobites/killiecrankie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/epoque-moderne/jacobites/killiecrankie/</guid>
+      <description>&lt;h2 id=&#34;le-contexte&#34;&gt;Le contexte&lt;/h2&gt;&#xA;&lt;p&gt;En 1688, Jacques II Stuart perd ses trois couronnes au profit de son gendre Guillaume d&amp;rsquo;Orange.&#xA;En Écosse, une partie de la noblesse et de nombreux clans des Highlands restent loyaux aux Stuarts.&#xA;John Graham de Claverhouse, vicomte Dundee, prend leur tête.&lt;/p&gt;&#xA;&lt;h2 id=&#34;le-déroulement&#34;&gt;Le déroulement&lt;/h2&gt;&#xA;&lt;p&gt;Les troupes gouvernementales de Mackay s&amp;rsquo;engagent dans l&amp;rsquo;étroit défilé de Killiecrankie.&#xA;Les Highlanders attendent en hauteur, tirent une salve, puis se ruent sur la ligne ennemie&#xA;à l&amp;rsquo;arme blanche : c&amp;rsquo;est la fameuse « charge des Highlands ». Elle est si rapide que les soldats&#xA;de Mackay n&amp;rsquo;ont pas le temps de se réorganiser.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Bataille de Poitiers</title>
       <link>http://localhost:1313/moyen-age/carolingiens/poitiers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/moyen-age/carolingiens/poitiers/</guid>
       <description>&lt;p&gt;La bataille de Poitiers oppose les Francs dirigés par Charles Martel aux forces omeyyades&#xA;venues d&amp;rsquo;Al-Andalus. Elle est souvent présentée comme un tournant de l&amp;rsquo;histoire européenne,&#xA;même si les historiens débattent de son ampleur réelle et de sa date exacte (732 ou 733).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bataille de Prestonpans</title>
+      <link>http://localhost:1313/epoque-moderne/jacobites/prestonpans/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/epoque-moderne/jacobites/prestonpans/</guid>
+      <description>&lt;h2 id=&#34;le-contexte&#34;&gt;Le contexte&lt;/h2&gt;&#xA;&lt;p&gt;En 1745, Charles Édouard Stuart, petit-fils de Jacques II, débarque dans les Hébrides&#xA;avec très peu de moyens. Il rallie plusieurs clans à Glenfinnan, puis marche vers le sud&#xA;et s&amp;rsquo;empare d&amp;rsquo;Édimbourg.&lt;/p&gt;&#xA;&lt;h2 id=&#34;le-déroulement&#34;&gt;Le déroulement&lt;/h2&gt;&#xA;&lt;p&gt;Le général Cope, qui cherchait à bloquer l&amp;rsquo;armée jacobite, est pris de court : les Highlanders&#xA;traversent de nuit un terrain marécageux et attaquent à l&amp;rsquo;aube. La charge brise rapidement&#xA;la ligne gouvernementale. La bataille est gagnée en une vingtaine de minutes environ, un succès&#xA;qui donne un immense prestige au prince.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bataille de Sheriffmuir</title>
+      <link>http://localhost:1313/epoque-moderne/jacobites/sheriffmuir/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/epoque-moderne/jacobites/sheriffmuir/</guid>
+      <description>&lt;h2 id=&#34;le-contexte&#34;&gt;Le contexte&lt;/h2&gt;&#xA;&lt;p&gt;En 1714, George de Hanovre devient roi de Grande-Bretagne. Pour les jacobites, c&amp;rsquo;est l&amp;rsquo;occasion&#xA;de relever la cause des Stuarts. Le comte de Mar rassemble une armée nettement plus nombreuse&#xA;que celle du duc d&amp;rsquo;Argyll, chargé de défendre Stirling et les routes vers le sud.&lt;/p&gt;&#xA;&lt;h2 id=&#34;le-déroulement&#34;&gt;Le déroulement&lt;/h2&gt;&#xA;&lt;p&gt;La bataille est confuse : l&amp;rsquo;aile droite jacobite enfonce la gauche gouvernementale, mais&#xA;l&amp;rsquo;aile gauche jacobite est mise en déroute. Les deux camps se disent vainqueurs. Argyll garde&#xA;pourtant la route de Stirling, et Mar, pourtant en supériorité numérique, n&amp;rsquo;avance pas.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -3,7 +3,7 @@ title: "Bataille de Prestonpans"
 description: "Le prince Charles Édouard Stuart remporte une victoire éclair en 1745."
 year: 1745
 periode: "21 septembre 1745"
-# image: "/images/prestonpans.jpg"
+image: "/images/prestonpans.jpg"
 lieu: "Prestonpans, East Lothian (Écosse)"
 camps: "Jacobites contre armée gouvernementale"
 commandants: "Charles Édouard Stuart et lord George Murray contre sir John Cope"

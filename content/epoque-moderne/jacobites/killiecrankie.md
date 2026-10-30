@@ -3,7 +3,7 @@ title: "Bataille de Killiecrankie"
 description: "Les Highlanders de Dundee balaient l'armée de Guillaume III dans un défilé."
 year: 1689
 periode: "27 juillet 1689"
-# image: "/images/killiecrankie.jpg"
+image: "/images/killiecrankie.jpg"
 lieu: "Défilé de Killiecrankie, Perthshire (Écosse)"
 camps: "Jacobites contre armée gouvernementale"
 commandants: "John Graham de Claverhouse, vicomte Dundee, contre Hugh Mackay"

@@ -1,0 +1,4 @@
+{{/* Reçoit un chemin d'image (ex. "/images/culloden.jpg") et renvoie true si le fichier est dans static/ */}}
+{{ $p := . }}
+{{ if not (strings.HasPrefix $p "/") }}{{ $p = printf "/%s" $p }}{{ end }}
+{{ return (fileExists (printf "static%s" $p)) }}

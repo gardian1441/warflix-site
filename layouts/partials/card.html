@@ -1,5 +1,6 @@
-<a href="{{ .RelPermalink }}" class="card">
-  {{ with .Params.image }}<img src="{{ . | relURL }}" alt="" loading="lazy">{{ end }}
+{{ $logo := eq (.Params.image_style | default "") "logo" }}
+<a href="{{ .RelPermalink }}" class="card{{ if $logo }} card--logo{{ end }}">
+  {{ with .Params.image }}{{ if partial "image-existe.html" . }}<img src="{{ . | relURL }}" alt="" loading="lazy">{{ end }}{{ end }}
   <span class="card-text">
     {{ with .Params.date_label | default .Params.periode }}<small>{{ . }}</small>{{ end }}
     <strong>{{ .Title }}</strong>

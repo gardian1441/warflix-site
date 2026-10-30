@@ -3,7 +3,7 @@ title: "Bataille de Sheriffmuir"
 description: "Le premier grand soulèvement jacobite se termine par une bataille sans vainqueur."
 year: 1715
 periode: "13 novembre 1715"
-# image: "/images/sheriffmuir.jpg"
+image: "/images/sheriffmuir.jpg"
 lieu: "Sheriffmuir, près de Stirling (Écosse)"
 camps: "Jacobites contre armée gouvernementale"
 commandants: "Comte de Mar contre duc d'Argyll"

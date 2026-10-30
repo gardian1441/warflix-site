@@ -1,10 +1,15 @@
 {{ define "main" }}
 <article>
 
-  <div class="battle-hero">
-    {{ with .Params.image }}<img class="hero-bg" src="{{ . | relURL }}" alt="">{{ end }}
+  {{ $logo := eq (.Params.image_style | default "") "logo" }}
+  {{ $img := "" }}
+  {{ with .Params.image }}{{ if partial "image-existe.html" . }}{{ $img = . }}{{ end }}{{ end }}
+
+  <div class="battle-hero{{ if $logo }} battle-hero--logo{{ end }}">
+    {{ if and $img (not $logo) }}<img class="hero-bg" src="{{ $img | relURL }}" alt="">{{ end }}
     <div class="battle-hero-text">
       {{ partial "retour.html" . }}
+      {{ if and $img $logo }}<img class="hero-logo" src="{{ $img | relURL }}" alt="Blason : {{ .Title }}">{{ end }}
       {{ with .Params.date_label | default .Params.periode }}<p class="battle-date">{{ . }}</p>{{ end }}
       <h1>{{ .Title }}</h1>
       {{ with .Description }}<p class="lead">{{ . }}</p>{{ end }}
@@ -13,11 +18,13 @@
 
   <div class="battle-content">
 
+    {{/* Fiche : par défaut Lieu / Camps / Commandants / Issue ; une page peut définir sa propre "fiche:" */}}
     {{ $fiche := slice
         (dict "label" "Lieu" "valeur" .Params.lieu)
         (dict "label" "Camps" "valeur" .Params.camps)
         (dict "label" "Commandants" "valeur" .Params.commandants)
         (dict "label" "Issue" "valeur" .Params.issue) }}
+    {{ with .Params.fiche }}{{ $fiche = . }}{{ end }}
     <div class="battle-info">
       {{ range $fiche }}{{ if .valeur }}
         <div class="info-card"><h2>{{ .label }}</h2><p>{{ .valeur }}</p></div>
@@ -26,7 +33,6 @@
 
     <div class="prose">{{ .Content }}</div>
 
-    {{/* Si la page a une carte mais n'a pas placé {{< carte >}} dans le texte, on l'affiche en bas */}}
     {{ if and (or .Params.carte .Params.map) (not (strings.Contains .RawContent "{{< carte")) }}
       <div class="prose"><h2>Carte stratégique</h2></div>
       {{ partial "carte.html" . }}

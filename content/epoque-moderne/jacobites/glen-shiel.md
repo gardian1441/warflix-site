@@ -3,7 +3,7 @@ title: "Bataille de Glen Shiel"
 description: "Quelques centaines d'Espagnols et des clans du nord-ouest affrontent l'armée du roi."
 year: 1719
 periode: "10 juin 1719"
-# image: "/images/glen-shiel.jpg"
+image: "/images/glen-shiel.jpg"
 lieu: "Glen Shiel, Kintail (Highlands de l'Ouest)"
 camps: "Jacobites et Espagnols contre armée gouvernementale"
 commandants: "Marquis de Tullibardine, comte de Seaforth, lord George Murray contre général Wightman"

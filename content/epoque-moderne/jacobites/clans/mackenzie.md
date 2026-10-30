@@ -2,8 +2,14 @@
 title: "Clan Mackenzie"
 description: "Un grand clan du nord-ouest, dont les chefs furent comtes de Seaforth."
 periode: "Kintail et Ross-shire"
-lieu: "Kintail et Ross-shire (nord-ouest des Highlands)"
-# image: "/images/mackenzie.jpg"
+image: "/images/clans/mackenzie.png"
+image_style: "logo"
+weight: 1
+fiche:
+  - { label: "Territoire", valeur: "Kintail et Ross-shire (nord-ouest des Highlands)" }
+  - { label: "Chef", valeur: "Comte de Seaforth" }
+  - { label: "Devise", valeur: "Luceo non uro (« Je brille, je ne brûle pas »)" }
+  - { label: "En 1745", valeur: "Clan divisé entre jacobites et gouvernement" }
 ---
 
 ## Qui sont les Mackenzie ?
@@ -11,10 +17,6 @@ lieu: "Kintail et Ross-shire (nord-ouest des Highlands)"
 Les Mackenzie sont l'un des clans les plus puissants du nord-ouest des Highlands.
 Leurs chefs portent le titre de comtes de Seaforth. Le château d'Eilean Donan,
 sur le Loch Duich, est lié à leur histoire.
-
-{{< deplier titre="La devise du clan" >}}
-« Luceo non uro » : « Je brille, je ne brûle pas ».
-{{< /deplier >}}
 
 ## Les Mackenzie et les soulèvements jacobites
 

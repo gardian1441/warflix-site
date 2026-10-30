@@ -42,3 +42,23 @@
     etapes.forEach((li) => li.classList.add("visible"));
   }
 })();
+
+// Rangées défilantes : flèches précédent / suivant
+(() => {
+  document.querySelectorAll(".row-wrap").forEach((wrap) => {
+    const rangee = wrap.querySelector(".row");
+    const prec = wrap.querySelector(".row-btn--prev");
+    const suiv = wrap.querySelector(".row-btn--next");
+    const maj = () => {
+      wrap.classList.toggle("defile", rangee.scrollWidth > rangee.clientWidth + 4);
+      prec.disabled = rangee.scrollLeft <= 4;
+      suiv.disabled = rangee.scrollLeft + rangee.clientWidth >= rangee.scrollWidth - 4;
+    };
+    const pas = () => Math.max(rangee.clientWidth * 0.8, 280);
+    prec.addEventListener("click", () => rangee.scrollBy({ left: -pas(), behavior: "smooth" }));
+    suiv.addEventListener("click", () => rangee.scrollBy({ left: pas(), behavior: "smooth" }));
+    rangee.addEventListener("scroll", maj, { passive: true });
+    window.addEventListener("resize", maj);
+    maj();
+  });
+})();
