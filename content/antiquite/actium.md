@@ -3,7 +3,7 @@ title: "Bataille d'Actium"
 description: "La bataille navale qui fait d'Octave le maître de Rome."
 year: -31
 periode: "31 av. J.-C."
-image: "/images/actium.jpg"
+image: "images/actium.jpg"
 lieu: "Golfe d'Ambracie, côte ouest de la Grèce"
 camps: "Octave contre Marc Antoine et Cléopâtre"
 commandants: "Agrippa (pour Octave) contre Marc Antoine"
