@@ -3,7 +3,7 @@ title: "Bataille de Culloden"
 description: "La dernière bataille livrée sur le sol britannique met fin au rêve jacobite."
 year: 1746
 periode: "16 avril 1746"
-image: "/images/culloden.jpg"
+image: "images/culloden.jpg"
 lieu: "Drumossie Moor, près d'Inverness (Écosse)"
 camps: "Jacobites contre armée gouvernementale hanovrienne"
 commandants: "Charles Édouard Stuart contre duc de Cumberland"
