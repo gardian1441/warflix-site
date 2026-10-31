@@ -3,7 +3,7 @@ title: "Bataille de Gaugamèles"
 description: "Le choc qui met fin à l'empire perse achéménide."
 year: -331                       # sert uniquement à trier (les dates av. J.-C. sont négatives)
 periode: "331 av. J.-C."
-image: "/images/gaugameles.jpg"   # image du bandeau + de la vignette
+image: "images/gaugameles.jpg"   # image du bandeau + de la vignette
 lieu: "Gaugamèles, près d'Arbèles (nord de l'actuel Irak)"
 camps: "Macédoniens et alliés grecs contre Empire perse"
 commandants: "Alexandre le Grand contre Darius III"
